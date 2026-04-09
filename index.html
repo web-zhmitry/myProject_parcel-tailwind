@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Furniture</title>
+</head>
+<body>
+<header class="p-5 flex flex-col gap-3 md:flex-row md:justify-between lg:px-20">
+    <!-- logo -->
+    <div class="font-helv text-[#415BE7] text-4xl uppercase">Furniture</div>
+
+    <!-- steps -->
+    <div class="flex items-center gap-2">
+
+        <!--step-1-->
+        <div class="flex items-center gap-2"
+             id="step_1">
+            <!--circle-->
+            <div class="flex w-8 h-8 bg-[#ffffff] rounded-full border border-solid border-[#DBDDE3] items-center justify-center"
+                 id="circle_1">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.6666 5L7.49992 14.1667L3.33325 10" stroke="#415BE7" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <span class="font-helv-light">Card</span>
+        </div>
+
+        <!--line-->
+        <div class="w-2 h-px bg-[#DBDDE3] md:w-12">
+        </div>
+
+        <!--step-2-->
+        <div class="flex items-center gap-2"
+             id="step_2">
+            <!--circle-->
+            <div class="flex w-8 h-8 bg-[#ffffff] rounded-full border border-solid border-[#DBDDE3] items-center justify-center"
+                 id="circle_2">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.6666 5L7.49992 14.1667L3.33325 10" stroke="#415BE7" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <span class="font-helv-light">Review</span>
+        </div>
+
+        <!--line-->
+        <div class="w-2 h-px bg-[#DBDDE3] md:w-12">
+        </div>
+
+        <!--step-3-->
+        <div class="flex items-center gap-2">
+            <!--circle-->
+            <div class="flex w-8 h-8 bg-btn-col text-sm font-helv text-white rounded-full items-center justify-center">
+                3
+            </div>
+            <span class="font-helv-light">Checkout</span>
+        </div>
+    </div>
+</header>
+<main>
+    <!--form-->
+    <div class="flex flex-col pt-10 px-5 pb-16 bg-gray-50 lg:px-20 lg:min-h-screen">
+        <form class="flex flex-col gap-10 lg:flex-row lg:gap-20 xl:justify-between">
+            <div class="flex flex-col gap-6">
+                <div class="font-helv text-[32px]">Checkout</div>
+                <div class="font-helv text-[20px]">Shipping Information</div>
+                <div>
+                    <label class="block text-base font-helv-med text-gray-700 mb-2">
+                        Full name <span class="text-red-500">*</span>
+                    </label>
+                    <input type="text" placeholder="Enter full name"
+                           class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none">
+                </div>
+                <div>
+                    <label class=" block text-base font-helv-med text-gray-700 mb-2">
+                        Email address <span class="text-red-500">*</span>
+                    </label>
+                    <input type="email" placeholder="Enter email address"
+                           class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-base font-helv-med text-gray-700 mb-2">
+                        Phone number <span class="text-red-500">*</span>
+                    </label>
+                    <input type="tel" placeholder="Enter phone number"
+                           class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-base font-helv-med text-gray-700 mb-2">
+                        Country <span class="text-red-500">*</span>
+                    </label>
+                    <input type="text" placeholder="Enter your country"
+                           class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none">
+                </div>
+                <div class="flex flex-col gap-6 md:flex-row md">
+                    <div class="w-full">
+                        <label class="block text-base font-helv-med text-gray-700 mb-2">
+                            City
+                        </label>
+                        <input type="text" placeholder="Enter city"
+                               class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none">
+                    </div>
+                    <div class="w-full">
+                        <label class="block text-base font-helv-med text-gray-700 mb-2">
+                            State
+                        </label>
+                        <input type="text" placeholder="Enter state"
+                               class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none">
+                    </div>
+                    <div class="w-full">
+                        <label class="block text-base font-helv-med text-gray-700 mb-2">
+                            ZIP Code
+                        </label>
+                        <input type="text" placeholder="ZIP Code"
+                               class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none">
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-10 lg:justify-center">
+                <!--cart-->
+                <div class="flex flex-col gap-6">
+                    <div class="font-helv text-[20px]">Review your cart</div>
+                    <div class="flex h-25 gap-4">
+                        <img src="./img/img-1.png" alt="images" class="w-25 border border-gray-300 rounded-lg">
+                        <div class="flex flex-col justify-between h-full">
+                            <div class="flex flex-col gap-2">
+                                <div class="font-helv-med">DouComfort Sofa Premium</div>
+                                <div class="text-sm text-neutral-500">1x</div>
+                            </div>
+                            <div class="font-helv">$20.00</div>
+                        </div>
+                    </div>
+                    <div class="flex h-25 gap-4">
+                        <img src="./img/img-2.png" alt="images" class="w-25 border border-gray-300 rounded-lg">
+                        <div class="flex flex-col justify-between h-full">
+                            <div class="flex flex-col gap-2">
+                                <div class="font-helv-med">IronOne Desk</div>
+                                <div class="text-sm text-neutral-500">1x</div>
+                            </div>
+                            <div class="font-helv">$25.00</div>
+                        </div>
+                    </div>
+                </div>
+                <!--total-->
+                <div class="flex flex-col gap-4 sm:w-132">
+                    <div class="flex justify-between">
+                        <div class="font-helv-light text-sm text-neutral-600">Subtotal</div>
+                        <div class="font-helv text-sm">$45.00</div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="font-helv-light text-sm text-neutral-600">Shipping</div>
+                        <div class="font-helv text-sm">$5.00</div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="font-helv-light text-sm text-neutral-600">Discount</div>
+                        <div class="font-helv text-sm">-$10.00</div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="font-helv">Total</div>
+                        <div class="font-helv">$40.00</div>
+                    </div>
+                </div>
+                <!--button-->
+                <button type="button" class="w-full h-[52px] bg-btn-col hover:bg-btn-hov rounded-lg font-helv text-white sm:w-132 ">
+                    Pay Now
+                </button>
+            </div>
+        </form>
+    </div>
+</main>
+<footer class="flex h-22 items-center justify-center">
+    <div class="font-helv-med text-sm text-neutral-500">© 2026 Furniture, Inc. All Rights Reserved</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

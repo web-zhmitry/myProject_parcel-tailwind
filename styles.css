@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/*Чтобы изменить дефолтные стили*/
+@theme {
+    --font-helv: 'Helvetica', sans-serif;
+    --font-helv-light: 'Helvetica-Regular', sans-serif;
+    --font-helv-med: 'Helvetica-Medium', sans-serif;
+    --color-btn-col: #415BE7;
+    --color-btn-hov: #2F45B9;
+}
+
+/*Шрифт для лого*/
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/HelveticaNeue-Bold.otf');
+}
+
+/*Шрифт для шагов*/
+@font-face {
+    font-family: 'Helvetica-Regular';
+    src: url('./fonts/HelveticaNeue-Light.otf');
+}
+
+/*Шрифт для формы*/
+@font-face {
+    font-family: 'Helvetica-Medium';
+    src: url('./fonts/HelveticaNeue-Medium.otf');
+}
